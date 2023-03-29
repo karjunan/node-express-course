@@ -7,3 +7,13 @@ if (amount < 10) {
 }
 
 console.log(`hey it's my first node app!!!`)
+
+console.log(__dirname);
+console.log(__filename);
+console.log(process.env);
+setInterval(() => {
+  console.log('hello');
+}, 1000)
+
+
+
